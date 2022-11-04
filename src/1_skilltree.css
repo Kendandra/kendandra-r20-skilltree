@@ -2,6 +2,10 @@
     --tree-connector-color: #189AB4;
     --node-selected-color: #7EC8E3;
     --node-unselected-color: #EEEDE7;
+    --tree-connector-vert-height: 1em;
+    --tree-connector-vert-height-margin: -1em;
+    --tree-connector-vert-height-pad: -.5em;
+    --node-width: 1em;
 }
 
 /* It's supposed to look like a tree diagram */
@@ -27,7 +31,7 @@
 
 .tree li {
     display: table-cell;
-    padding: .5em 0;
+    padding: var(--tree-connector-vert-height) 0;
     vertical-align: top;
 }
 
@@ -40,6 +44,7 @@
     right: 0;
     top: 0;
 }
+
 .tree li:first-child:before {left: 50%;}
 .tree li:last-child:before {right: 50%;}
 
@@ -47,8 +52,8 @@
     border: solid .1em var(--tree-connector-color);
     border-radius: .2em;
     display: inline-block;
-    margin: 0 .2em .5em;
-    padding: .2em .5em;
+    margin: 0 .2em 4.5em;
+    padding: .2em var(--node-width);
     position: relative;
 }
 
@@ -58,18 +63,18 @@
 .tree span:before {
     outline: solid 1px var(--tree-connector-color);
     content: "";
-    height: .5em;
+    height: var(--tree-connector-vert-height);
     left: 50%;
     position: absolute;
 }
 
 .tree ul:before {
-    top: -.5em;
+    top: var(--tree-connector-vert-height-pad);
 }
 
 .tree code:before,
 .tree span:before {
-    top: -.55em;
+    top: var(--tree-connector-vert-height-margin);
 }
 
 /* The root node doesn't connect upwards */
@@ -80,3 +85,4 @@
     .tree > li > span:before {
       outline: none;
     }
+

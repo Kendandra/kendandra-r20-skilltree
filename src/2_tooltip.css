@@ -1,0 +1,26 @@
+
+.ktooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.ktooltip .ktooltiptext {
+    visibility: hidden;
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    top: -5px;
+    left: 105%;
+    border:2px solid grey;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.ktooltip:hover .ktooltiptext {
+    visibility: visible;
+}
+

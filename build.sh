@@ -14,11 +14,17 @@ echo Clearing build cache
 rm -v $BUILD_DIR/*
 echo ----------------------------
 
+echo Build css
+# use default filesystem ordering as poormans CSS load order.  WOW.
+cat $SRC_DIR/*.css > $BUILD_DIR/skilltree.css
+echo ----------------------------
+
 echo Build copy
 # move all basic assets
 cp -vp $SRC_DIR/*.html $BUILD_DIR
-cp -vp $SRC_DIR/*.css $BUILD_DIR
+#cp -vp $SRC_DIR/*.css $BUILD_DIR
 echo ----------------------------
+
 
 echo Wrapper replacement
 # build wrapper (crazy, I know)
