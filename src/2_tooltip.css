@@ -6,14 +6,13 @@
 
 .ktooltip .ktooltiptext {
     visibility: hidden;
-    background: #fff;
-    width: 150px;
-    text-align: center;
+    width: 400px;
+    text-align: left;
     border-radius: 6px;
     padding: 5px 5px;
     top: -5px;
     left: 105%;
-    border:2px solid grey;
+    border:2px solid rgb(150, 63, 63);
 
     /* Position the tooltip */
     position: absolute;

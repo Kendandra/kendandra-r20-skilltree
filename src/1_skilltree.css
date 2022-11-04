@@ -52,7 +52,7 @@
     border: solid .1em var(--tree-connector-color);
     border-radius: .2em;
     display: inline-block;
-    margin: 0 .2em 4.5em;
+    margin: 0 .2em .5em;
     padding: .2em var(--node-width);
     position: relative;
 }

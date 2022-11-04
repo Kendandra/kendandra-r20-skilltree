@@ -1,0 +1,10 @@
+
+/*
+    Collection of adjustments / overrides to correct collisions of the other CSS files.
+*/
+
+.phb.ktooltiptext {
+    height: auto;  /* Nathan's edit for when being in a tool tip, don't use "page" height." */
+}
+
+
