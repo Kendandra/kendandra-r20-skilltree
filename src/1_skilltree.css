@@ -8,6 +8,8 @@
     --node-width: 1em;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
 /* It's supposed to look like a tree diagram */
 .tree, .tree ul, .tree li {
     list-style: none;
@@ -17,7 +19,7 @@
 }
 
 .tree {
-    margin: 0 0 1em;
+    margin: 0 0 3em;
     text-align: center;
 }
 

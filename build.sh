@@ -27,4 +27,4 @@ echo Build TEST HARNESS
 cat $SRC_WRAPPER_HEADER $SRC_HTML $SRC_WRAPPER_FOOTER > $BUILD_DIR/index.html
 echo ----------------------------
 
-echo BUILD SUCCESS
+echo BUILD SUCCESS?  :shrug:

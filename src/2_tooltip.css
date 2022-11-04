@@ -1,8 +1,8 @@
 
-.ktooltip {
+/*.ktooltip {
     position: relative;
     display: inline-block;
-}
+}*/
 
 .ktooltip .ktooltiptext {
     visibility: hidden;
