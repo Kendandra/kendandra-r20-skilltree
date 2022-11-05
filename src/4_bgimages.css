@@ -15,6 +15,7 @@
     max-height: 800px;
     max-width: 800px;
     overflow: scroll;
+    background-color: black;
 }
 
 .sheet-wrapper div.bg-overlay.default {
