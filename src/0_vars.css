@@ -1,0 +1,16 @@
+
+
+:root {
+    --tree-connector-color: #f3f3f3;
+    --node-selected-color: #eff6f8;
+    --node-unselected-color: #EEEDE7;
+    --tree-connector-vert-height: 1em;
+    --tree-connector-vert-height-margin: -1em;
+    --tree-connector-vert-height-pad: -.5em;
+    --node-width: 1em;
+    --parchment-color: #c9ad6a;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+

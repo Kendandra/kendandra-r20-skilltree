@@ -1,14 +1,3 @@
-:root {
-    --tree-connector-color: #189AB4;
-    --node-selected-color: #7EC8E3;
-    --node-unselected-color: #EEEDE7;
-    --tree-connector-vert-height: 1em;
-    --tree-connector-vert-height-margin: -1em;
-    --tree-connector-vert-height-pad: -.5em;
-    --node-width: 1em;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
 /* It's supposed to look like a tree diagram */
 .tree, .tree ul, .tree li {
