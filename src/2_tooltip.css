@@ -6,7 +6,8 @@
 
 .ktooltip .ktooltiptext {
     visibility: hidden;
-    width: 400px;
+    width: 300px;
+    max-width: 300px;
     text-align: left;
     border-radius: 6px;
     padding: 5px 5px;
@@ -26,13 +27,20 @@
 
 .force-right .ktooltip .ktooltiptext {
     left: -135%;
-    /*right: 105%;*/
+    top: 60px;
 }
 
 .force-left .ktooltip .ktooltiptext {
     left: 105%;
-    /*right: 0;*/
+}
 
+.force-up .ktooltip .ktooltiptext {
+    top: -200px;
+}
+
+.force-down .ktooltip .ktooltiptext {
+    top: 60px;
+    left: -235%;
 }
 
 @keyframes tooltipFadeIn {

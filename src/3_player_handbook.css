@@ -275,12 +275,12 @@ body {
 .phb blockquote {
     font-family: 'Libre Baskerville';
     box-sizing: border-box;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     padding: 5px 10px;
     background-color: #e0e5c1;
     border-style: solid;
     border-width: 11px;
-    border-image: url('/assets/noteBorder.png') 11;
+    border-image: url('https://i.imgur.com/Hy5Xn2w.png') 11;
     border-image-outset: 9px 0px;
     box-shadow: 1px 4px 14px #888
 }
