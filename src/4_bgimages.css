@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.overflow-scroll {
+    overflow:scroll;
+}
+
 #sheet-wrapper {
     position: relative;
     width: 100%;
@@ -30,6 +34,7 @@
 .sheet-wrapper div.header-row-spacer {
     height: 45px;
     width: 100%;
+    background-color: white;
 }
 
 .sheet-wrapper div.bg-overlay.specific {
